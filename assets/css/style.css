@@ -48,117 +48,111 @@ h5 {
 
 #eventos h2 {
   margin-bottom: 1em;
-  
 }
-.evento a{
+
+.evento a {
   text-decoration: none;
-  
 }
- .evento a:visited {
+
+.evento a:visited {
   color: #272727;
-
 }
 
-.content{
-  padding-top: 150px;
-  padding-bottom: 40px;
-  width: 75%;
-  margin: 0em auto;
+.content {
+  padding-top: 50px; /* Reducido el padding */
+  padding-bottom: 20px; /* Reducido el padding */
+  width: 90%; /* Aumentado el ancho */
+  margin: 0 auto;
   align-content: center;
-
-
 }
-.content img{
-  max-width: 75%;
+
+.content img {
+  max-width: 100%;
   height: auto;
-  padding-bottom: 60px;
-  
-
+  padding-bottom: 30px; /* Reducido el padding */
 }
 
-.content h2{
-  padding-bottom: 40px;
-  width: 75%;
-  margin: 0em auto;
+.content h2 {
+  padding-bottom: 20px; /* Reducido el padding */
+  width: 90%; /* Aumentado el ancho */
+  margin: 0 auto;
   text-align: left;
-  
 }
-.content p{
-  width: 75%;
+
+.content p {
+  width: 90%; /* Aumentado el ancho */
   text-align: justify;
   text-justify: inter-word;
-  text-align: left; 
-  margin: 0em auto;
-  padding-bottom: 20px;
- 
+  text-align: left;
+  margin: 0 auto;
+  padding-bottom: 10px; /* Reducido el padding */
 }
+
 .content h2:last-of-type {
-  padding-top: 30px;
-}
-
-
-
-#eventos h3 {
-  margin: 1em auto;
-  text-decoration: none;
+  padding-top: 15px; /* Reducido el padding */
 }
 
 .oscuro {
   background: #000f08;
   color: #ffffff;
+  padding: 30px; /* Reducido el padding */
 }
 
-.oscuro a{
+.oscuro a {
   color: #ffffff;
   text-decoration: none;
 }
-
 
 .sweet-brown {
   text-align: left;
   background: #a4452c;
   color: #ffffff;
-  padding: 3.125rem;
+  padding: 2.5rem; /* Reducido el padding */
   white-space: nowrap;
 }
 
 .hero-section {
-  text-align: right;
+  text-align:   center;
   background-image: url('../img/bg-hero.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center; /* Añadido para centrar la imagen */
   color: #ffffff;
   text-shadow: 0.125em 0.25em 0.125em #707070;
-  padding: 6.25rem 3.125rem;
+  padding: 3.125rem 1.875rem; /* Reducido el padding */
 }
 
-section, footer {
-  margin-top: 4.5rem;
+
+section,
+footer {
+  margin-top: 2.5rem; /* Reducido el margen superior */
 }
+
 #page1 {
   margin-top: 0rem;
-
 }
 
 footer {
-  padding: 3.125rem;
+  padding: 2.5rem; /* Reducido el padding */
 }
 
 .centrado {
-  width: 75%;
+  width: 90%; /* Aumentado el ancho */
   margin: 0 auto;
 }
 
-.charla-speaker, .charla-texto, .evento {
+.charla-speaker,
+.charla-texto,
+.evento {
   display: inline-block;
 }
 
-.charla-speaker{
+.charla-speaker {
   width: 25%;
   vertical-align: middle;
 }
 
-.charla-texto  {
+.charla-texto {
   width: 72.5%;
   vertical-align: middle;
   margin-left: 2.5%;
@@ -175,7 +169,7 @@ footer {
 
 nav {
   text-align: left;
-  padding: 1.25rem 4rem;
+  padding: 1.25rem 1.25rem; /* Reducido el padding horizontal */
   position: fixed;
   width: 100vw;
 }
@@ -186,12 +180,12 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 0 1em;
+  margin: 0 0.5em; /* Reducido el margen horizontal */
   vertical-align: middle;
 }
 
 .icono {
-  width: 2rem;
+  width: 1.5rem; /* Reducido el tamaño del icono */
 }
 
 .icono svg {
